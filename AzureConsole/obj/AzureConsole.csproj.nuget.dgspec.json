@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MyProjects\\Azure\\AzureConsoleApp\\AzureConsole\\AzureConsole\\AzureConsole.csproj": {}
+  },
+  "projects": {
+    "D:\\MyProjects\\Azure\\AzureConsoleApp\\AzureConsole\\AzureConsole\\AzureConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\Azure\\AzureConsoleApp\\AzureConsole\\AzureConsole\\AzureConsole.csproj",
+        "projectName": "AzureConsole",
+        "projectPath": "D:\\MyProjects\\Azure\\AzureConsoleApp\\AzureConsole\\AzureConsole\\AzureConsole.csproj",
+        "packagesPath": "C:\\Users\\lesleyk\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\Azure\\AzureConsoleApp\\AzureConsole\\AzureConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lesleyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.1.130.40:8081/repository/eclipse-nuget/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.14.0-beta.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
